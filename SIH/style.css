@@ -1,0 +1,115 @@
+* {
+  padding: 0%;
+  box-sizing: border-box;
+  margin: 0;
+}
+.flex {
+  display: flex;
+  align-items: center;
+}
+.nav-list {
+  list-style: none;
+  padding: 5px;
+}
+.main-nav {
+  align-items: center;
+  padding-inline: 20px;
+  max-width: 1180px;
+  justify-content: space-between;
+  margin-inline: auto;
+}
+ul {
+  gap: 40px;
+  padding-inline-start: 40px;
+}
+a {
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.2rem;
+  display: inline-block;
+}
+.nav-button {
+  align-items: space-between;
+  justify-content: space-between;
+}
+.sign-up {
+  background-color: rgb(116, 116, 198);
+  border-radius: 6px;
+  padding: 12px 24px;
+  color: white !important;
+  transition: 0.2s ease-out;
+}
+.sign-up:hover {
+  background-color: rgb(23, 23, 179);
+}
+.log-in {
+  background-color: white;
+  border: 0.5 solid rgb(116, 116, 198);
+  border-radius: 6px;
+  padding: 12px 24px;
+}
+nav {
+  background-color: rgb(221, 235, 247);
+  border-radius: 0px 0px 10px 10px;
+  justify-content: end;
+}
+.logo img {
+  width: 200px;
+}
+.logo {
+  justify-content: start;
+}
+.hover-links {
+  color: black;
+  transition: 0.2s ease-out;
+}
+.hover-links:hover {
+  color: rgb(43, 0, 117);
+}
+.experience {
+  justify-content: space-evenly;
+  gap: 20px;
+  flex-direction: column;
+  min-width: 100vh;
+}
+.upper-text {
+  flex-basis: 30%;
+}
+.heading {
+  font-size: 2rem;
+  text-align: center;
+}
+.sub-heading {
+  margin: 10px;
+  text-align: center;
+  font-size: 1.2rem;
+}
+.gallary {
+  display: grid;
+  flex-basis: 50%;
+  gap: 20px;
+  grid-template-columns: repeat(5, 5fr);
+  grid-auto-rows: 240px;
+  width: 100%;
+  padding: 0 50px;
+}
+.box {
+  background-size: cover;
+  justify-content: center;
+  align-items: end;
+  color: white;
+  background-color: rgb(93, 85, 85);
+  background-blend-mode: hard-light;
+  cursor: pointer;
+  height: 100%;
+  width: 100%;
+  font-size: 1.2rem;
+  transition: all 1s ease-out;
+  border-radius: 4px;
+  padding-block-end: 5px;
+}
+.box:hover {
+  background-color: #999;
+  background-position: center;
+  box-shadow: 0 0 4px #fff;
+}
